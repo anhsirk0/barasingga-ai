@@ -24,6 +24,8 @@
 ![diagonal_capture.png](https://github.com/anhsirk0/barasingga-ai/blob/master/assets/diagonal_capture.png)
 
 > two captures in one turn
+> red piece at (1, 3) can capture two pieces (1, 2) & (2, 1) and its final position will be (3, 1)
+> similarly for blue piece at (4, 2) it can capture (3, 2) & (2, 3) and its final position willbe (2, 5)
 ![two_captures.png](https://github.com/anhsirk0/barasingga-ai/blob/master/assets/two_captures.png)
 
 # AI
