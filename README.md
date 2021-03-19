@@ -12,8 +12,17 @@
 ## Initial position
 ![screenshot2.png](https://github.com/anhsirk0/barasingga-ai/blob/master/assets/screenshot2.png)
 
+## moves
+![moves.png](https://github.com/anhsirk0/barasingga-ai/blob/master/assets/moves.png)
+
+
+## Captures
 > vertical capture
 ![capture.png](https://github.com/anhsirk0/barasingga-ai/blob/master/assets/capture.png)
 
 > diagonal capture
 ![diagonal_capture.png](https://github.com/anhsirk0/barasingga-ai/blob/master/assets/diagonal_capture.png)
+
+> two captures in one turn
+![two_captures.png](https://github.com/anhsirk0/barasingga-ai/blob/master/assets/two_captures.png)
+
