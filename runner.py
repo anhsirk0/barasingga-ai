@@ -27,8 +27,8 @@ pygame.display.set_caption('Barasingga')
 
 game = Barasingga()
 bai = BarasinggaAI(depth=3)
-# empty list to store points
-points = []
+# empty list to store clicks
+clicks = []
 
 # pygame window
 run = True
@@ -41,7 +41,7 @@ while run:
             sys.exit()
         # collect mouse clicks
         if event.type == pygame.MOUSEBUTTONDOWN:
-            points.append(event.pos)
+            clicks.append(event.pos)
 
     screen.fill(BLACK)
     for i in range(5):
@@ -68,9 +68,9 @@ while run:
         time.sleep(0.1)
         game.move(m)
 
-    if len(points) == 2:
-        initial_mouse = points[0]
-        final_mouse = points[1]
+    if len(clicks) == 2:
+        initial_mouse = clicks[0]
+        final_mouse = clicks[1]
         initial = None
         final = None
         for i in range(5):
@@ -82,7 +82,7 @@ while run:
         action = (initial, final)
         if action in game.available_actions(game.board, game.player):
             game.move(action)
-        points = []
+        clicks = []
 
     # drawing the pieces
     pieces = []
